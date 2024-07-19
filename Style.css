@@ -1,0 +1,345 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: url('images.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    line-height: 1.6;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px 0;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
+  header h1,
+  main section h2 {
+    margin-top: 0;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  header h1 {
+    font-size: 3em;
+  }
+  
+  header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    color: #777;
+  }
+  
+  main {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  main section {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  main section h2 {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .project img {
+    max-width: 15%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 5px;
+  }
+  
+  .project h3 {
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  .project p {
+    color: #aaa;
+    margin-bottom: 10px;
+  }
+  
+  .mine img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 5px;
+  }
+  
+  .links {
+    text-align: center;
+  }
+  
+  .links a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .links a:hover {
+    color: #0056b3;
+  }
+  
+  #skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #skills li {
+    margin: 10px;
+    background: #f8f9fa;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #333;
+    font-weight: 500;
+    transition: background 0.3s ease;
+  }
+  
+  #skills li:hover {
+    background: #ddd;
+  }
+  
+  #contact ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #contact li {
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
+  footer p {
+    margin: 0;
+    color: #777;
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  
+    header {
+      padding: 20px 0;
+    }
+  
+    header h1 {
+      font-size: 2em;
+    }
+  
+    header p {
+      font-size: 1em;
+    }
+  
+    main {
+      width: 90%;
+    }
+  
+    main section {
+      padding: 10px;
+    }
+  
+    main section h2 {
+      font-size: 1.5em;
+    }
+  
+    .project h3 {
+      font-size: 1.2em;
+    }
+  
+    .project p {
+      font-size: 1em;
+    }
+  
+    #skills li {
+      font-size: 0.8em;
+      padding: 5px 10px;
+    }
+  
+    #contact li {
+      font-size: 0.8em;
+    }
+  
+    footer p {
+      font-size: 0.8em;
+    }
+  }
+  
+  #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-directionflex-direction: row;
+  max-width: 800px;
+  width: 100%;
+  }
+  
+  .about-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .about-text {
+    flex: 1;
+    text-align: justify;
+    color: #fff;
+  }
+  
+  #about h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-weight: 700;
+  }
+  
+  .about-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-me__image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .about-me__text {
+    flex: 1;
+    text-align: justify;
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .about-me {
+      flex-direction: column;
+    }
+  
+    .about-me__image {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 14px;
+    }
+  
+    header {
+      padding: 10px 0;
+    }
+  
+    header h1 {
+      font-size: 1.5em;
+    }
+  
+    header p {
+      font-size: 0.9em;
+    }
+  
+    main {
+      width: 95%;
+    }
+  
+    main section {
+      padding: 5px;
+    }
+  
+    main section h2 {
+      font-size: 1.2em;
+    }
+  
+    .project img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .project h3 {
+      font-size: 1em;
+    }
+  
+    .project p {
+      font-size: 0.8em;
+    }
+  
+    #skills li {
+      font-size: 0.7em;
+      padding: 3px 5px;
+    }
+  
+    #contact li {
+      font-size: 0.8em;
+    }
+  
+    footer p {
+      font-size: 0.7em;
+    }
+  
+    #about {
+      flex-direction: column;
+    }
+  
+    .about-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-img {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 10px;
+    }
+  
+    .about-me {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-me__image {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 10px;
+    }
+  
+    .about-me__text {
+      text-align: center;
+    }
+  }
